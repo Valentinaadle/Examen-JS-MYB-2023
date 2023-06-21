@@ -1,7 +1,7 @@
 # Examen-JS-MYB-2023
 Filtros recomendados para hacer en la página:
 
-fromDate: 01/01/2022 
+fromDate: 01/01/2020 
 
 toDate: 03/06/2023
 
