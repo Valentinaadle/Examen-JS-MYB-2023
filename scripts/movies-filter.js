@@ -230,7 +230,7 @@ const movies = [
     genre: "Thriller",
     watched: "2022-04-01 09:40:48",
     rate: 7.6,
-    image: "images/thegodfather.jpg",
+    image: "./scripts/images/thegodfather.jpg",
   },
   {
     userId: 7,
@@ -239,7 +239,7 @@ const movies = [
     genre: "Horror",
     watched: "2020-05-25 13:11:24",
     rate: 7.4,
-    image: "images/thetexascm.jpg",
+    image: "./scripts/images/thetexascm.jpg",
   },
   {
     userId: 1,
@@ -248,7 +248,7 @@ const movies = [
     genre: "Horror",
     watched: "2022-02-24 00:21:22",
     rate: 5.8,
-    image: "images/the-shining.jpg",
+    image: "./scripts/images/the-shining.jpg",
   },
   {
     userId: 3,
@@ -257,7 +257,7 @@ const movies = [
     genre: "Animation|Children",
     watched: "2022-06-17 23:21:12",
     rate: 5.9,
-    image: "images/toystory.jpg",
+    image: "./scripts/images/toystory.jpg",
   },
   {
     userId: 8,
@@ -266,7 +266,7 @@ const movies = [
     genre: "Horror|Thriller",
     watched: "2020-04-18 15:47:33",
     rate: 4,
-    image: "images/halloween.jpg",
+    image: "./scripts/images/halloween.jpg",
   },
   {
     userId: 5,
@@ -275,7 +275,7 @@ const movies = [
     genre: "Action|Thriller",
     watched: "2020-06-15 22:49:31",
     rate: 3.3,
-    image: "images/diehard.jpg",
+    image: "./scripts/images/diehard.jpg",
   },
   {
     userId: 2,
@@ -284,7 +284,7 @@ const movies = [
     genre: "Action|Adventure",
     watched: "2022-11-16 04:22:21",
     rate: 4.7,
-    image: "images/thedarkknight.jpg",
+    image: "./scripts/images/thedarkknight.jpg",
   },
   {
     userId: 3,
@@ -293,7 +293,7 @@ const movies = [
     genre: "Drama|Thriller",
     watched: "2022-10-26 07:04:17",
     rate: 4,
-    image: "images/fightclub.jpg",
+    image: "./scripts/images/fightclub.jpg",
   },
   {
     userId: 5,
@@ -302,7 +302,7 @@ const movies = [
     genre: "Action|Sci-Fi",
     watched: "2022-07-12 20:36:17",
     rate: 2.8,
-    image: "images/avengers.jpg",
+    image: "./scripts/images/avengers.jpg",
   },
   {
     userId: 7,
@@ -311,7 +311,7 @@ const movies = [
     genre: "Comedy",
     watched: "2020-08-13 01:17:10",
     rate: 1.4,
-    image: "images/thehangover.jpg",
+    image: "./scripts/images/thehangover.jpg",
   },
   {
     userId: 4,
@@ -320,7 +320,7 @@ const movies = [
     genre: "Animation|Romance",
     watched: "2020-10-06 00:08:50",
     rate: 1,
-    image: "images/yourname.webp",
+    image: "./scripts/images/yourname.webp",
   },
   {
     userId: 9,
@@ -329,7 +329,7 @@ const movies = [
     genre: "Adventure|Fantasy",
     watched: "2022-01-11 23:06:04",
     rate: 9.1,
-    image: "images/dragon.jpg",
+    image: "./scripts/images/dragon.jpg",
   },
   {
     userId: 8,
@@ -338,7 +338,7 @@ const movies = [
     genre: "Adventure|Musical",
     watched: "2021-08-05 18:57:45",
     rate: 5.8,
-    image: "images/robinhood.jpg",
+    image: "./scripts/images/robinhood.jpg",
   },
   {
     userId: 6,
@@ -347,7 +347,7 @@ const movies = [
     genre: "Drama|Musical",
     watched: "2022-04-23 00:44:02",
     rate: 0.7,
-    image: "images/whiplash.jpg",
+    image: "./scripts/images/whiplash.jpg",
   },
   {
     userId: 5,
@@ -356,7 +356,7 @@ const movies = [
     genre: "Drama|War",
     watched: "2022-05-02 20:00:04",
     rate: 6.4,
-    image: "images/lavidaesbella.jpg",
+    image: "./scripts/images/lavidaesbella.jpg",
   },
 ];
 
