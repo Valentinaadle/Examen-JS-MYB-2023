@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fire watch with me</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Fire watch with me</h1>
+    </header>
+    <section>
+      <div class="form-container">
+        <form id="filter-form" class="filter-form">
+          <h1 class="container-title">Filtra tus peliculas</h1>
+          <input type="date" id="from-date" class="form-buttons" />
+
+          <input type="date" id="to-date" class="form-buttons" />
+
+          <select id="rate-select" class="form-buttons">
+            <option>Elige un puntaje</option>
+            <option>0</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+          </select>
+
+          <select
+            name="user-id-select"
+            id="user-id-select"
+            class="form-buttons"
+            value="Hasta"
+          >
+            <option>Elige un ID de usuario</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+          </select>
+
+          <input type="submit" class="form-buttons" value="Filtrar" />
+        </form>
+
+        <div class="movies-container"></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="users-container">
+        <h1 class="container-title">Nuestros usuarios</h1>
+      </div>
+    </section>
+    <script src="movies-filter.js"></script>
+  </body>
+</html>
