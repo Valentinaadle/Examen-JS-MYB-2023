@@ -3,6 +3,7 @@ const users = [
   {
     id: 1,
     name: "Leanne Graham",
+    avatar: "./scripts/images/cooper.jpg",
     username: "Bret",
     email: "Sincere@april.biz",
     address: {
@@ -25,6 +26,7 @@ const users = [
   {
     id: 2,
     name: "Ervin Howell",
+    avatar: "./scripts/images/james.jpg",
     username: "Antonette",
     email: "Shanna@melissa.tv",
     address: {
@@ -47,6 +49,7 @@ const users = [
   {
     id: 3,
     name: "Clementine Bauch",
+    avatar: "./scripts/images/shelly.png",
     username: "Samantha",
     email: "Nathan@yesenia.net",
     address: {
@@ -69,6 +72,7 @@ const users = [
   {
     id: 4,
     name: "Patricia Lebsack",
+    avatar: "./scripts/images/audrey.jpg",
     username: "Karianne",
     email: "Julianne.OConner@kory.org",
     address: {
@@ -91,6 +95,7 @@ const users = [
   {
     id: 5,
     name: "Chelsey Dietrich",
+    avatar: "./scripts/images/ed.jpg",
     username: "Kamren",
     email: "Lucio_Hettinger@annie.ca",
     address: {
@@ -113,6 +118,7 @@ const users = [
   {
     id: 6,
     name: "Mrs. Dennis Schulist",
+    avatar: "./scripts/images/donna.jpg",
     username: "Leopoldo_Corkery",
     email: "Karley_Dach@jasper.info",
     address: {
@@ -135,6 +141,7 @@ const users = [
   {
     id: 7,
     name: "Kurtis Weissnat",
+    avatar: "./scripts/images/leland.jpg",
     username: "Elwyn.Skiles",
     email: "Telly.Hoeger@billy.biz",
     address: {
@@ -157,6 +164,7 @@ const users = [
   {
     id: 8,
     name: "Nicholas Runolfsdottir V",
+    avatar: "./scripts/images/mrc.png",
     username: "Maxime_Nienow",
     email: "Sherwood@rosamond.me",
     address: {
@@ -179,6 +187,7 @@ const users = [
   {
     id: 9,
     name: "Glenna Reichert",
+    avatar: "./scripts/images/bowie.jpg",
     username: "Delphine",
     email: "Chaim_McDermott@dana.io",
     address: {
@@ -201,6 +210,7 @@ const users = [
   {
     id: 10,
     name: "Clementina DuBuque",
+    avatar: "./scripts/images/laura.jpg",
     username: "Moriah.Stanton",
     email: "Rey.Padberg@karina.biz",
     address: {
@@ -379,6 +389,7 @@ const userMoviesObject = (users, movies) => {
       const userMovie = {
         id: user.id,
         userName: user.name,
+        avatar: user.avatar,
         email: user.email,
         address: `${user.address.street} - ${user.address.city}`,
         company: user.company.name,
@@ -399,6 +410,10 @@ const userMoviesObject = (users, movies) => {
       const nameElement = document.createElement("h2");
       nameElement.classList.add("user-title");
       nameElement.textContent = user.userName;
+
+      const avatarElement = document.createElement('img');
+      avatarElement.classList.add('user-img');
+      avatarElement.src = user.avatar;
 
       const idElement = document.createElement("p");
       idElement.classList.add("user-atributes");
@@ -428,6 +443,7 @@ const userMoviesObject = (users, movies) => {
 
       movieDiv.append(
         nameElement,
+        avatarElement,
         idElement,
         emailElement,
         addressElement,
