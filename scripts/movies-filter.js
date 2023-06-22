@@ -483,7 +483,7 @@ const filterMovies = ({ users, movies, userId, fromDate, toDate, rate }) => {
       del puntaje de cada pelicula con el valor seleccionado en el boton. */
 
       filteredMovies = filteredMovies.filter(
-        (movie) => Math.floor(movie.rate) == rate.value
+        (movie) => Math.floor(movie.rate) >= rate.value
       );
 
       console.log("Movies after rate filtering:", filteredMovies);
