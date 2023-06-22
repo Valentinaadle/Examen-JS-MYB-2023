@@ -525,7 +525,7 @@ const filterMovies = ({ users, movies, userId, fromDate, toDate, rate }) => {
 
           const userElement = document.createElement("p");
           userElement.classList.add("movie-userId");
-          userElement.textContent = `Id de usuario: ${movie.userId}`;
+          userElement.textContent = `ID de usuario: ${movie.userId}`;
 
           document.body.appendChild(movieDiv);
 
