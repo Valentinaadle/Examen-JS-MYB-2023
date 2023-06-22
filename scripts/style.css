@@ -20,7 +20,7 @@ header {
 header h1 {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
-  color: #332f2f;
+  color: #743434;
   -webkit-text-stroke: 2px #47a54e;
   font-size: 3rem;
 }
@@ -55,6 +55,7 @@ header h1 {
   border-color: #47a54e;
   color: #47a54e;
   margin: 1em;
+  border-radius: 3px;
 }
 
 .movies-container {

@@ -140,7 +140,7 @@ const users = [
   },
   {
     id: 7,
-    name: "Kurtis Weissnat",
+    name: "Kurtis    Weissnat",
     avatar: "./scripts/images/leland.jpg",
     username: "Elwyn.Skiles",
     email: "Telly.Hoeger@billy.biz",
